@@ -35,9 +35,10 @@ class Login extends LitElement {
 
         <button type="submit">Iniciar sesión</button>
       </form>
+        <p>${this.errorMessage}</p>
       </div>
     </div>
-      <p>${this.errorMessage}</p>
+      
     `;
   }
 
